@@ -1,0 +1,63 @@
+body {
+    /* margin é quando você deseja separar elementos externamente. */
+    /* Margin = Exterior (Espaçamento fora do conteúdo) */
+    margin: 0;
+
+    /* padding-top é a margem interna. Isso significa que quando você deseja organizar o conteúdo internamente, o conteúdo do corpo aparecerá a 800 pixels do topo. */
+    /* Padding = Interior (Espaçamento dentro dos limites do conteúdo) */
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    /* A imagem do perfil tem um raio de borda de 50% por cento para parecer circular. Lembre-se de que o img tem o nome da classe “profile”, então deve ser estilizado usando a sintaxe (ponto) .nomeDaClasse */
+    border-radius: 50%;
+}
+
+/* A seção welcome (boas-vindas) tem uma posição absoluta, a exibição no estilo Table e a cor do fundo é um gradiente, ou seja, uma gama de cores de uma cor em 0% da área de seção a 100% da área de seção. */
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#8c1a64 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+#name {
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family:  cursive;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    vertical-align: middle;
+}
